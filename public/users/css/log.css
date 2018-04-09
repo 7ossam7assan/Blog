@@ -1,0 +1,148 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 27, 2018, 10:03:42 PM
+    Author     : HH
+*/
+
+body{
+    background-image: url('../img/l.jpg');
+    -o-background-size: contain;
+}
+.logreg .container {
+    
+    width: 40%;
+    /*background-color: rgba(f,f,f,1);*/
+    background-color:#fff;
+    height: 420px;
+    margin-top: 100px;
+    border-radius: 4px;
+}
+
+
+.logreg .container ul li{
+    text-transform: uppercase;
+    background-color: #d2d8d8;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 4px;
+   
+}
+.logreg  .active,.logreg  li:hover{
+    background-color: #fff !important; 
+}
+/*.logreg .active,.logreg  li:hover{
+    color: #fff;
+    border: 1px solid #ec1c23;
+    background-color: #ec1c23;
+    
+}*/
+.signin .form-control{
+    position: relative;
+}
+.signin .form-control-feedback {
+    position: absolute;
+    top: 7px;
+    right: 13px;
+    z-index: 2;
+    font-size: 1.2em;
+    color: #9a7777db;
+    display: block;
+    width: 36px;
+    height: 17px;
+    line-height: 33px;
+    text-align: center;
+   
+}
+.signin .form-control-feedback-pass {
+    position: absolute;
+    top: 63px;
+    right: 13px;
+    z-index: 2;
+    font-size: 1.2em;
+    color: #9a7777db;
+    display: block;
+    width: 36px;
+    height: 17px;
+    line-height: 33px;
+    text-align: center;
+   
+}
+
+.signup .form-control{
+    position: relative;
+}
+.signup .form-control-feedback {
+    position: absolute;
+    top: 7px;
+    right: 13px;
+    z-index: 2;
+    font-size: 1.2em;
+    color: #9a7777db;
+    display: block;
+    width: 36px;
+    height: 17px;
+    line-height: 33px;
+    text-align: center;
+   
+}
+.signup .form-control-feedback2 {
+    position: absolute;
+    top: 63px;
+    right: 13px;
+    z-index: 2;
+    font-size: 1.2em;
+    color: #9a7777db;
+    display: block;
+    width: 36px;
+    height: 17px;
+    line-height: 33px;
+    text-align: center; position: absolute;
+    top: 63px;
+    right: 13px;
+    z-index: 2;
+    font-size: 1.2em;
+    color: #9a7777db;
+    display: block;
+    width: 36px;
+    height: 17px;
+    line-height: 33px;
+    text-align: center;
+   
+}
+
+.signup .form-control-feedback-pass {
+    position: absolute;
+    top: 118px;
+    right: 13px;
+    z-index: 2;
+    font-size: 1.2em;
+    color: #9a7777db;
+    display: block;
+    width: 36px;
+    height: 17px;
+    line-height: 33px;
+    text-align: center;
+   
+}
+.signup .form-control-feedback-pass2 {
+    position: absolute;
+    top: 173px;
+    right: 13px;
+    z-index: 2;
+    font-size: 1.2em;
+    color: #9a7777db;
+    display: block;
+    width: 36px;
+    height: 17px;
+    line-height: 33px;
+    text-align: center;
+   
+}
+.signup{
+    display: none;
+}
